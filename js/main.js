@@ -49,7 +49,7 @@ function getMovie(){
          let movie = response.data;
          let output= `<div class="row">
          <div class="col-md-4">
-        <img src="${movie.Poster} " class="thumbnail">
+        <img src="${movie.Poster}" class="thumbnail">
          </div>
           <div class="col-md-8"> 
           <h2>${movie.Title}</h2>
@@ -69,8 +69,8 @@ function getMovie(){
          <h3>Plot</h3>
          ${movie.Plot}
          <hr>
-         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn primary">View IMDB</a>
-        <a href="index.html" class="btn btn-default">Go Back to Search</a>
+         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn success">View IMDB</a>
+        <a href="index.html" class="btn btn-primary">Go Back to Search</a>
          </div>
          </div>`;
 
